@@ -24,11 +24,11 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                return SpeedDialFragment.newInstance();
+                return speeddial.newInstance();
             case 1:
-                return RecentsFragment.newInstance();
+                return Recents.newInstance();
             case 2:
-                return ContactsFragment.newInstance();
+                return contacts.newInstance();
             default:
                 return null;
         }

@@ -32,7 +32,6 @@ public class contactAdapter extends RecyclerView.Adapter<contactAdapter.ViewHold
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             contact_name=itemView.findViewById(R.id.section_label);
-            contact_number=itemView.findViewById(R.id.s1);
-        }
+
     }
-}
+}}
